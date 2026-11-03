@@ -1,0 +1,66 @@
+/* Targets ALL elements */
+* {
+    /* changes how elements are sized */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eef2f2;
+    color: #203747;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    
+    width: 640px;
+    margin: 16px auto;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+header {
+    border-bottom: 1px solid #dbe4e5;
+}
+
+header .eyebrow {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #526e78;
+}
+
+header h1 {
+    margin: 8px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.menu a {
+    color: #526e78;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.canvas {
+    background-color: #eaf2f3;
+    width: 560px;
+    height: 400px;
+    margin: 24px auto;
+    border-radius: 12px;
+
+    display: grid;
+    place-items: center;
+}
