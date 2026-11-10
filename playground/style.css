@@ -113,3 +113,73 @@ header h1 {
 .traffic-light .green {
     background-color: #63ac72;
 }
+
+/********************************** HAMBURGER ***********************************/
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.hamburger .bun {
+    width: 250px;
+    background-color: #e9ad58;
+    border-bottom: 7px solid #ce8b3d;
+}
+
+.hamburger .bun-top {
+    height: 95px;
+    border-radius: 125px 125px 18px 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.hamburger .bun-bottom {
+    height: 45px;
+    border-radius: 10px 10px 30px 30px;
+}
+
+.hamburger .layer {
+    width: 260px;
+    border-radius: 8px;
+}
+
+.hamburger .lettuce {
+    height: 20px;
+    background-color: #63ac72;
+    border-bottom: 5px solid #428a50;
+}
+
+.hamburger .tomato {
+    height: 22px;
+    width: 240px;
+    background-color: #ed655c;
+    border-bottom: 5px solid #cb4942;
+}
+
+.hamburger .cheese {
+    height: 14px;
+    width: 265px;
+    background-color: #f8cd54;
+    border-radius: 4px;
+}
+
+.hamburger .patty {
+    height: 42px;
+    background-color: #785b35;
+    border-bottom: 7px solid #573325;
+    border-radius: 18px;
+}
+
+.hamburger .seed {
+    width: 8px;
+    height: 16px;
+    background-color: #fff4d5;
+    border-radius: 4px;
+    rotate: 25deg;
+}
