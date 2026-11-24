@@ -47,4 +47,36 @@ ol, ul {
 
 .rounded {
     border-radius: 0.25rem;
+    overflow: hidden;
+    /* crops out the parts that don't fit */
+}
+
+/******************** CARDS ********************/
+.card {
+    background-color: #202b35;
+    border: 1px solid #718493;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 3;
+
+    /* fit the image as a cover photo */
+    object-fit: cover;
+    object-position: center;
+}
+
+.horizontal-card {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-card .card-image {
+    width: 33%;
+    aspect-ratio: 4 / 2;
 }
